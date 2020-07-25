@@ -6,4 +6,4 @@
 連結：https://amos-do.github.io/Js-underground-city/
 
 ## 列表
-1F - 9x9 乘法表 筆記 [DEMO](https://amos-do.github.io/Js-underground-city/1F-9x9-Multiplication-table/public/index.html)
+1F - 9x9 乘法表 筆記 [DEMO](https://amos-do.github.io/Js-underground-city/1F-9x9-Multiplication-table/public/index.html) [Vue-demo](https://amos-do.github.io/Js-underground-city/vue-version/dist/#/1F-9x9)
