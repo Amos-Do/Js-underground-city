@@ -1,23 +1,25 @@
 <template>
   <div>
-    <div class="wrap">
-      <!-- title -->
-      <div class="card title-container">
-        <span class="title-line title-line-top"></span>
-        <div class="title-info">
-          <h1>九九乘法表</h1>
-          <p>MULTIPLICATION CHART</p>
+    <div class="wrap-1F">
+      <div class="wrap">
+        <!-- title -->
+        <div class="card title-container">
+          <span class="title-line title-line-top"></span>
+          <div class="title-info">
+            <h1>九九乘法表</h1>
+            <p>MULTIPLICATION CHART</p>
+          </div>
+          <span class="title-line title-line-bottom"></span>
         </div>
-        <span class="title-line title-line-bottom"></span>
-      </div>
-      <!-- mult start -->
-      <div class="card card-bg" v-for="num in 8" :key="num">
-      <ul>
-        <li class="main-number">{{num+1}}</li>
-        <li v-for="multNum in 9" :key="multNum">
-          {{num+1}} x {{multNum}} = {{(num + 1) * (multNum)}}
-        </li>
-      </ul>
+        <!-- mult start -->
+        <div class="card card-bg" v-for="num in 8" :key="num">
+        <ul>
+          <li class="main-number">{{num+1}}</li>
+          <li v-for="multNum in 9" :key="multNum">
+            {{num+1}} x {{multNum}} = {{(num + 1) * (multNum)}}
+          </li>
+        </ul>
+        </div>
       </div>
     </div>
 
@@ -37,10 +39,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scopedSlots>
+<style scoped lang="scss">
 $primary-color: #2eb738;
 
-body {
+.wrap-1F {
   font-family: -apple-system, "Microsoft JhengHei", "Segoe UI", "Helvetica Neue",
     Arial, sans-serif;
   color: $primary-color;
