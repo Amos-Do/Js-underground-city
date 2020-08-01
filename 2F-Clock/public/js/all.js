@@ -1,0 +1,2 @@
+"use strict";!function(){var a=document.querySelector(".second-hand"),o=document.querySelector(".minute-hand"),c=document.querySelector(".hour-hand");function t(){var t=new Date,e=6*t.getSeconds(),n=6*t.getMinutes()+6*t.getSeconds()/60,r=30*t.getHours()+30*t.getMinutes()/60;a.style.transform="translate(-50%, -3%) rotate(".concat(e-180,"deg)"),o.style.transform="translate(-50%, 0) rotate(".concat(n,"deg)"),c.style.transform="translate(-4%, -98%) rotate(".concat(r-90,"deg)")}t(),setInterval(t,1e3)}();
+//# sourceMappingURL=all.js.map
